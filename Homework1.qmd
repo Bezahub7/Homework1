@@ -6,9 +6,9 @@ editor: visual
 
 # First Section:
 
-- What do you think being a data scientist is about?
+-   What do you think being a data scientist is about?
 
-    I think being a data scientist to its core, is all about extracting insights and solving real-world problems         using data.
+    I think being a data scientist to its core, is all about extracting insights and solving real-world problems using data.
 
     A data scientist is involved in the tasks below (this is not an exhaustive list )
 
@@ -21,11 +21,11 @@ editor: visual
      - Communicating findings 
     ```
 
-- What differences/similarities do you see between data scientists and statisticians?
+-   What differences/similarities do you see between data scientists and statisticians?
 
-    Data scientists and statisticians both deal with cleaning, transforming, modeling, visualizing, interpreting and     communicating the data. However, the type of data the two deal with (structured vs unstructured, big data) and       the tools that they use can be different. Moreover, data scientist are heavy on the programming side while           statisticians are heavy on theoretical aspects such as study design.
+    Data scientists and statisticians both deal with cleaning, transforming, modeling, visualizing, interpreting and communicating the data. However, the type of data the two deal with (structured vs unstructured, big data) and the tools that they use can be different. Moreover, data scientist are heavy on the programming side while statisticians are heavy on theoretical aspects such as study design.
 
-- How do you view yourself in relation to these two areas?
+-   How do you view yourself in relation to these two areas?
 
 At my work, I'm used to dealing with a more structured, well designed and smaller data ,doing descriptive and a bit of inferential statistics. But, I also like to challenge my self and learn more data science tools to solve more real-world problems.
 
@@ -39,10 +39,10 @@ y <- density(iris$Petal.Width)
 
 ```
 
-Determine the 
-  - class 
-  - Type, and 
-  - Structure of the object y
+-   Determine the
+    -   class
+    -   Type, and
+    -   Structure of the object y
 
 ```{r}
 class(y)
@@ -50,12 +50,10 @@ typeof(y)
 str(y)
 ```
 
-Plot y
+-   Plot y
 
 ```{r}
 
 #| echo: false
 plot(y)
 ```
-
-

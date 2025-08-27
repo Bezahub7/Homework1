@@ -1,48 +1,61 @@
 ---
-title: "Home Work 1: about Data Science"
+title: "Homework 1: About Data Science"
 format: html
 editor: visual
 ---
 
-# What do you think being a data scientist is about?
+# First Section:
 
-I think being a data scientist to it's core,  is all about extracting insights and solving problems using data.
+- What do you think being a data scientist is about?
 
-A data scientist is involved in the tasks below (this is not an exhaustive list )
+    I think being a data scientist to its core, is all about extracting insights and solving real-world problems         using data.
 
-- Cleaning data
-- Transforming data
-- Visualizing 
-- Building models
-- Communicating findings 
+    A data scientist is involved in the tasks below (this is not an exhaustive list )
 
-# What differences/similarities do you see between data scientists and statisticians?
+    ```         
+     - Cleaning data
+     - Transforming data
+     - Analyzing data
+     - Visualizing data
+     - Building models
+     - Communicating findings 
+    ```
 
-Data scientists and statisticians both deal with cleaning, transforming, modeling, visualizing, interpreting and communicating the data.However, the type of data the two deal with (structured vs unstructured, big data) and the tools that they use can be different. 
+- What differences/similarities do you see between data scientists and statisticians?
 
-# How do you view yourself in relation to these two areas?
+    Data scientists and statisticians both deal with cleaning, transforming, modeling, visualizing, interpreting and     communicating the data. However, the type of data the two deal with (structured vs unstructured, big data) and       the tools that they use can be different. Moreover, data scientist are heavy on the programming side while           statisticians are heavy on theoretical aspects such as study design.
 
-At my work, I'm used to dealing  with a more structured, well designed and smaller data ,doing descriptive and inferential statistics. But I also like to challenge my self and learn more data science tools. 
+- How do you view yourself in relation to these two areas?
 
-#Probabilty desnsity function:
+At my work, I'm used to dealing with a more structured, well designed and smaller data ,doing descriptive and a bit of inferential statistics. But, I also like to challenge my self and learn more data science tools to solve more real-world problems.
+
+# Second Section:
+
+Probability density function:
+
 ```{r}
+
 y <- density(iris$Petal.Width)
 
 ```
 
-# Determine the class, type, and structure of the object y
+Determine the 
+  - class 
+  - Type, and 
+  - Structure of the object y
+
 ```{r}
 class(y)
 typeof(y)
 str(y)
 ```
 
-#Plot y
+Plot y
 
 ```{r}
+
 #| echo: false
 plot(y)
 ```
 
-The `echo: false` option disables the printing of code (only output is displayed).
 

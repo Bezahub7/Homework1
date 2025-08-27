@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Home Work 1: about Data Science</title>
+<title>Home Work 1: About Data Science</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -116,7 +116,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Home Work 1: about Data Science</h1>
+<h1 class="title">Home Work 1: About Data Science</h1>
 </div>
 
 
@@ -133,42 +133,41 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="what-do-you-think-being-a-data-scientist-is-about" class="level1">
-<h1>What do you think being a data scientist is about?</h1>
-<p>I think being a data scientist to it’s core, is all about extracting insights and solving problems using data.</p>
-<p>A data scientist is involved in the tasks below (this is not an exhaustive list )</p>
+<section id="first-section" class="level1">
+<h1>First Section:</h1>
 <ul>
-<li>Cleaning data</li>
-<li>Transforming data</li>
-<li>Visualizing</li>
-<li>Building models</li>
-<li>Communicating findings</li>
+<li><p>What do you think being a data scientist is about?</p>
+<p>I think being a data scientist to its core, is all about extracting insights and solving problems using data.</p>
+<p>A data scientist is involved in the tasks below (this is not an exhaustive list )</p>
+<pre><code> - Cleaning data
+ - Transforming data
+ - Analyzing data
+ - Visualizing data
+ - Building models
+ - Communicating findings </code></pre></li>
+<li><p>What differences/similarities do you see between data scientists and statisticians?</p>
+<p>Data scientists and statisticians both deal with cleaning, transforming, modeling, visualizing, interpreting and communicating the data. However, the type of data the two deal with (structured vs unstructured, big data) and the tools that they use can be different. Moreover, data scientist are heavy on the programming side while statisticians are heavy on theoretical aspects such as study design.</p></li>
+<li><p>How do you view yourself in relation to these two areas?</p></li>
 </ul>
-</section>
-<section id="what-differencessimilarities-do-you-see-between-data-scientists-and-statisticians" class="level1">
-<h1>What differences/similarities do you see between data scientists and statisticians?</h1>
-<p>Data scientists and statisticians both deal with cleaning, transforming, modeling, visualizing, interpreting and communicating the data.However, the type of data the two deal with (structured vs unstructured, big data) and the tools that they use can be different.</p>
-</section>
-<section id="how-do-you-view-yourself-in-relation-to-these-two-areas" class="level1">
-<h1>How do you view yourself in relation to these two areas?</h1>
 <p>At my work, I’m used to dealing with a more structured, well designed and smaller data ,doing descriptive and inferential statistics. But I also like to challenge my self and learn more data science tools.</p>
-<p>#Probabilty desnsity function:</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>y <span class="ot">&lt;-</span> <span class="fu">density</span>(iris<span class="sc">$</span>Petal.Width)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
 </section>
-<section id="determine-the-class-type-and-structure-of-the-object-y" class="level1">
-<h1>Determine the class, type, and structure of the object y</h1>
+<section id="second-section" class="level1">
+<h1>Second Section</h1>
+<p>Probability density function:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">class</span>(y)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>y <span class="ot">&lt;-</span> <span class="fu">density</span>(iris<span class="sc">$</span>Petal.Width)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Determine the - class - Type, and - Structure of the object y</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">class</span>(y)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "density"</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">typeof</span>(y)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">typeof</span>(y)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "list"</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">str</span>(y)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">str</span>(y)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>List of 7
  $ x        : num [1:512] -0.656 -0.648 -0.64 -0.633 -0.625 ...
@@ -181,8 +180,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  - attr(*, "class")= chr "density"</code></pre>
 </div>
 </div>
-<p>#Plot y</p>
+<p>Plot y</p>
 <div class="cell">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co">#| echo: false</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(y)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
